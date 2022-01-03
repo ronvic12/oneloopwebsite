@@ -1,0 +1,20 @@
+.oneloop-footer{
+	padding-top: 20px;
+	position: static;
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+  	background-color: #022851;
+  	color: white;
+  	text-align: center;
+  	padding-bottom: 20px;
+}
+
+.oneloop-links{
+	padding-top: 10px;
+}
+
+.oneloop-links a{
+	padding-left: 3vw;
+	padding-right: 3vw;
+}

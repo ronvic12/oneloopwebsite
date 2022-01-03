@@ -1,0 +1,646 @@
+/* About Us */
+
+.oneloop-about-body {
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+.AboutUs {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+
+    color: #022851;
+}
+
+.secTitle {
+    /* Web: Heading 1 */
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+
+    color: #022851;
+}
+
+.headmob {
+  width: 100%;
+}
+
+.headweb {
+  display: none;
+}
+
+.imgsub {
+    font-family: Open Sans;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: right;
+
+    color: #000000;
+
+}
+
+
+.OurMission li {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    width: 100%;
+    color: #000000;
+}
+
+.OurFacultyAdv {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.ProfIntro {
+  max-width: 250px;
+  align-self: center;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+.profimgintro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.profimg {
+  max-width: 150px;
+}
+
+.OurFacultyAdv p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#bolder {
+    font-weight: bold;
+}
+
+.OurHistory {
+  padding-bottom: 10%;
+}
+
+.OurHistory p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #000000;
+}
+
+.OurHistory .YearNum {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #E8E8E8;
+    background-color: #022851;
+    border-radius: 5px;
+    width: fit-content;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 10px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* The actual timeline (the vertical ruler) */
+  .timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  
+  /* The actual timeline (the vertical ruler) */
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #022851;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+
+  }
+
+  .piccontainer {
+    display: block;
+    padding: 10px 20px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+
+  .piccontainerright {
+    display: block;
+    padding: 10px 20px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+
+  .piccontainer img{
+    width: 100%;
+  }
+
+  .piccontainerright img{
+    width: 100%;
+  }
+
+  .sameline {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  /* Container around content */
+  .container {
+    padding: 10px 20px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+  
+  /* The circles on the timeline */
+  .container::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: -17px;
+    border: 7px solid white;
+    background-color:  #022851;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  /* Place the container to the left */
+  .left {
+    left: 0;
+  }
+  
+  /* Place the container to the right */
+  /*.right {
+    left: 50%;
+  }*/
+  
+  .left .YearNum{
+      align-self: flex-end;
+  }
+
+  .left .rightalign {
+    text-align: right;
+  }
+
+  /* Fix the circle for containers on the right side */
+  .right::after {
+    left: -16px;
+  }
+  
+  /* The actual content */
+  .content {
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container button {
+    font-family: Open Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+
+    /* Link Blue */
+
+    color: #0E6E9F;
+    background-color: unset;
+    padding: unset;
+    border: unset;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: left;
+  }
+
+  .rightalign {
+    text-align: right;
+  }
+
+  .collapable {
+    display: none;
+  }
+
+  .collapabler {
+    display: none;
+  }
+
+  .Popup2017 {
+    position: fixed;
+    left: 15%;
+    top: 25%;
+    max-width: 70%;
+    z-index: 2;
+
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 7%;
+    padding-right:5%;
+    padding-left: 5%;
+    padding-bottom: 7%;
+    background-color: white;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #000000;
+    border-radius: 30px;
+  }
+
+  .Popup2017 p{
+    background-color: white;
+  }
+
+  .Popup2017 button {
+    font-family: unset;
+    font-style: unset;
+    font-weight: unset;
+    font-size: 18px;
+    line-height: 16px;
+    align-self: flex-end;
+    color: black;
+    background-color: unset;
+    padding: unset;
+    border: unset;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .Popup2017 .Title {
+    /* Mobile: Title */
+    align-self: flex-start;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #000000;
+    margin:unset;
+  }
+
+
+  .Popup2018 {
+    position: fixed;
+    left: 15%;
+    top: 30%;
+    max-width: 70%;
+    z-index: 2;
+
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 7%;
+    padding-right:5%;
+    padding-left: 5%;
+    padding-bottom: 7%;
+    background-color: white;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #000000;
+    border-radius: 30px;
+  }
+
+  .Popup2018 p{
+    background-color: white;
+  }
+
+  .Popup2018 button {
+    font-family: unset;
+    font-style: unset;
+    font-weight: unset;
+    font-size: 18px;
+    line-height: 16px;
+    align-self: flex-end;
+    color: black;
+    background-color: unset;
+    padding: unset;
+    border: unset;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .Popup2018 .Title {
+    /* Mobile: Title */
+    align-self: flex-start;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #000000;
+    margin:unset;
+  }
+  
+
+  .Popup2019 {
+    position: fixed;
+    left: 15%;
+    top: 30%;
+    max-width: 70%;
+    z-index: 2;
+
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 7%;
+    padding-right:5%;
+    padding-left: 5%;
+    padding-bottom: 7%;
+    background-color: white;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #000000;
+    border-radius: 30px;
+  }
+
+  .Popup2019 p{
+    background-color: white;
+  }
+
+  .Popup2019 button {
+    font-family: unset;
+    font-style: unset;
+    font-weight: unset;
+    font-size: 18px;
+    line-height: 16px;
+    align-self: flex-end;
+    color: black;
+    background-color: unset;
+    padding: unset;
+    border: unset;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .Popup2019 .Title {
+    /* Mobile: Title */
+    align-self: flex-start;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #000000;
+    margin:unset;
+  }
+
+  .extraline {
+    color: black;
+  }
+
+  @media only screen and (min-width: 768px) {
+
+    .OurHistory .YearNum {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 19px;
+      text-align: center;
+      color: #E8E8E8;
+      background-color: #022851;
+      border-radius: 5px;
+      width: -moz-fit-content;
+      width: fit-content;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      padding-left: 50px;
+      padding-right: 50px;
+      margin: 10px;
+    }
+
+    .AboutUs {
+      justify-content: flex-start;
+    }
+
+    .headmob {
+      display: none;
+    }
+
+    .headweb {
+      display: block;
+      width: 100%;
+    }
+
+    .container {
+      padding: 30px 80px;
+    }
+
+    .container button {
+      display: none;
+    }
+    .collapable {
+      display: flex;
+    }
+
+    .collapabler {
+      display: flex;
+      text-align: right;
+    }
+
+    #bolder {
+      color: #022851;
+    }
+
+    .extraline {
+      display: none;
+    }
+
+    
+    .Upper {
+      display:flex;
+      justify-content: space-between;
+      flex-direction: row-reverse;
+    }
+    .profimgintro {
+      flex-direction: row;
+    }
+    .left3 , .left5, .right3{
+      display: none;
+    }
+
+    .piccontainer {
+      display: flex;
+      flex-direction: column;
+      padding: 0px 80px;
+    }
+
+    .piccontainerright {
+      display: flex;
+      flex-direction: column;
+      display: block;
+      padding: 0px 80px;
+      position: relative;
+      background-color: inherit;
+      width: 50%;
+    }
+
+    .piccontainer img{
+      padding: 10px;
+      max-width: 480px;
+    }
+
+    .piccontainerright img{
+      margin-top: unset;
+      padding: 10px;
+      max-width: 480px;
+    }
+
+    .oneloop-about-body {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+  
+
+  .firstImage {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: auto;
+    max-width: 100%;
+  }
+
+  .otherImages {
+    max-width: 50%;
+    align-items: center;
+  }
+
+  .sth{
+    display: flex;
+    justify-content: center;
+  }
+
+  .OurHistory p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+  }
+
+  .OurFacultyAdv {
+    width: 50%;
+  }
+
+  .OurFacultyAdv p{
+    font-size: 18px;
+    text-align: left;
+  }
+
+  .OurMission {
+    width: 50%;
+  }
+  .profimg {
+    max-width: 200px;
+  }
+  .ProfIntro {
+    max-width: 300px;
+  }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px){
+  .left3 , .left5, .right3{
+    display: unset;
+  }
+
+}
+
+@media only screen and (min-width: 500px) and (max-width: 768px){
+  .left3 , .left5, .right3{
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px){
+  .left3 , .left5, .right3{
+    display: unset;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .piccontainer{
+    padding: unset;
+  }
+
+
+  .piccontainerright{
+    padding: unset;
+  }
+}

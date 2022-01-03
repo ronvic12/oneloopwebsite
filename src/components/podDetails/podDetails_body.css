@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+
+.oneloop-poddetails-title{
+	color: #022851; 
+	font-family: 'Playfair Display', sans-serif;
+	font-size : 30px; 
+	text-align : center; 
+    padding: 12px 20px;
+}
+
+.oneloop-poddetails-slideshow{
+    padding: 12px 20px;
+    text-align : center;
+}
+
+
+@media only screen and (min-width: 1000px) {
+    .oneloop-poddetails-title{
+        font-size : 40px; 
+        text-align : left; 
+        padding: 50px 100px;
+    }
+
+    .oneloop-poddetails-slideshow{
+        padding: 50px 100px;
+        text-align : center;
+    }
+} 
+
+/*slideshow*/
+.poddetails-slideshow {
+    text-align: center;
+}
+
+.poddetails-rame-wrapper {
+    position: relative;
+}
+
+.poddetails-ss-image {
+    width: 60%;
+    height: 520px;
+}
+
+.poddetails-ss-idle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-500%);
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+/*the dots at the bottom*/
+.poddetails-slideshow span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 1em;
+    margin-top: 1.25em;
+    background-color: white;
+    transition: background-color 0.3s;
+    border: 1px solid #022851
+}
+
+.poddetails-slideshow span.active {
+    background-color: #022851;
+}
+
+.poddetails-dot-wrapper {
+    margin-top: 20px;
+}
+
+.poddetails-dot-wrapper span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 12px;
+    background-color: white;
+    transition: background-color 0.3s;
+    border: 1px solid #022851
+}
+
+@media (hover: hover) {
+    .poddetails-slideshow span:hover {
+        cursor: pointer;
+        background-color: #E5E5E5;
+    }
+} 
+
+@media (min-width:768px) {
+    .poddetails-slideshow span {
+        width: 20px;
+        height: 20px;
+        margin: 0 17.5px;
+    }
+}

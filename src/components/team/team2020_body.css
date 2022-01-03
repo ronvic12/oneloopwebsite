@@ -1,0 +1,48 @@
+.oneloop-team2020-body{
+	margin-right: 20px;
+	margin-left: 20px;
+	align-items: center;
+}
+
+.team-web{
+	display: none;
+}
+
+.oneloop-team2020-body h2{
+	font-family: Playfair Display;
+	color: #022851;
+	font-size: 28px;
+}
+
+.oneloop-team2019-title{
+	text-align: center;
+}	
+
+@media (min-width: 887px){
+	.oneloop-team2020-body{
+		margin-right: 100px;
+		margin-left: 100px;
+	}
+	.team-web{
+		display: flex;
+	}
+	.team-member{
+		margin-right: 2.3vw;
+	}
+	.team-mobile{
+		display: none;
+	}
+
+	.team-member img{
+		width: 12.5vw;
+		margin-bottom: -15px;
+	} 
+	.team-member h4{
+		font-size: 1.2vw;
+	}
+
+	.oneloop-team2019-title{
+		text-align: left;
+	}
+ 
+}

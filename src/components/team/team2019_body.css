@@ -1,0 +1,104 @@
+.oneloop-team2019-body{
+	margin-right: 20px;
+	margin-left: 20px;
+	align-items: center;
+}
+
+.oneloop-team2019{
+	display: flex;
+	flex-direction: column;
+}
+
+.oneloop-team2019-body h2{
+	font-family: Playfair Display;
+	color: #022851;
+	font-size: 28px;
+}
+
+.oneloop-team2019-title h1{
+	font-family: Playfair Display;
+	color: #022851;
+	font-size: 40px;
+}
+
+.oneloop-team2019-body p{
+	font-size: 3vw;
+}
+
+.team2019-buttons{
+	display: flex;
+	flex-direction: row;
+}
+
+.team2019-to-team2020, .team2019-to-team2018{
+	width: 50vw;
+	margin-bottom: 25px;
+	padding-top: 20px;
+}
+
+.team2019-to-team2020{
+	text-align: right;
+}
+
+.team2019-to-team2020 a{
+	font-size: 3vw;
+	background-color: #022851;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding-right: 35px;
+	padding-left: 35px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 15px; 
+}
+
+.team2019-to-team2018 a{
+	font-size: 3vw;
+	background-color: #022851;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding-right: 25px;
+	padding-left: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 15px; 
+}
+
+.team-web{
+	display: none;
+}
+
+.oneloop-team2019-title{
+	text-align: center;
+} 
+
+@media (min-width: 887px){
+	.oneloop-team2019-body{
+		margin-right: 100px;
+		margin-left: 100px;
+	}
+	.team-web{
+		display: flex;
+	}
+	.team-member{
+		margin-right: 2.3vw;
+	}
+	.team-mobile{
+		display: none;
+	}
+
+	.team-member img{
+		width: 12.5vw;
+		margin-bottom: -15px;
+	} 
+	.team-member h4{
+		font-size: 1.2vw;
+	}	
+	.oneloop-team2019-title{
+		text-align: left;
+	} 
+
+	.team2019-to-team2020 a, .team2019-to-team2018 a{
+		font-size: 1.2vw;
+	}
+}

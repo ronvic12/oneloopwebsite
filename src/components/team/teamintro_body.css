@@ -1,0 +1,100 @@
+.oneloop-teamintro-body{
+	margin-left: 20px;
+	margin-right: 20px; 
+	display: flex;
+	flex-direction: column;
+}
+
+.oneloop-team-title{
+	align-items: center;
+	margin: auto;
+}
+
+.oneloop-team-bio{
+	margin-left: 20px;
+	margin-right: 20px; 
+}
+
+.oneloop-team-advisor{
+	margin-left: 20px;
+	margin-right: 20px; 
+	display: flex;
+	flex-direction: column;
+}
+
+.oneloop-team-title h1{
+	font-family: Playfair Display;
+	color: #022851;
+	font-size: 40px;
+}
+
+.oneloop-teamintro-body h2{
+	font-family: Playfair Display;
+	color: #022851;
+	font-size: 28px;
+	margin-left: 20px;
+	margin-right: 20px; 
+}
+
+.oneloop-team-title img{
+	width: 90vw;
+}
+
+.oneloop-previous-teams{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+.oneloop-previous-teams h2{
+	padding-bottom: 30px;
+}
+
+
+.oneloop-previous-teams a{
+	margin-left: 20px;
+	margin-right: 20px; 
+	text-decoration: underline;
+}
+
+.Advisor-bio{
+	line-height: 1;
+}
+
+.Advisor-bio h4{
+	margin-bottom: -2px;
+}
+
+.Advisor-bio ul{
+	margin-left: -2vh;
+}
+
+.Advisor-bio li{
+	margin-bottom: -10px;
+}
+
+.oneloop-previous-teams h2{
+	margin-bottom: -13px;
+}
+
+@media (min-width: 887px){
+	.oneloop-teamintro-body{
+		margin-left: 100px;
+		margin-right: 100px; 
+	}
+	.oneloop-team-title img{
+		width: 80vw;
+	}
+	.oneloop-team-advisor{
+		flex-direction: row;
+	}
+	.Advisor-bio{
+		margin: auto 0;
+		margin-left: 25px;
+		line-height: 0;
+	}
+
+	.oneloop-team-title h1{
+		text-align: center;
+	}
+}
